@@ -11,4 +11,4 @@ _fminsearch_ is used to find values for the 4 time constants that yield a minima
 ![picture](Fig1.jpg)
 
 ## Figure 2: Twitch and tetanus (model vs. data) for optimal time constants (minimal SSE)
-![picture](Fig1.jpg)
+![picture](Fig2.jpg)
