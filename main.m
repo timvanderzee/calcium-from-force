@@ -11,10 +11,10 @@ parms.Ft = Fy(:,1)/100;
 redo = 0;
 
 %% optimize or load
-if redo 
-    parms.A = 1;
-    parms.u_func = @(t,parms) parms.A * (t < parms.tstop);
+parms.A = 1;
+parms.u_func = @(t,parms) parms.A * (t < parms.tstop);
 
+if redo 
     % fminsearch setting
     fopt = optimset('MaxIter',100);
     tau_max = .15; % maximum time constant considered (s)
